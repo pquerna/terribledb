@@ -25,7 +25,7 @@ TerribleDB takes a number of options on the command line. The defaults are:
 
 # API Changes
 
-* TerrileDB does not implement support for [AWS Security Token Service Authentication](http://docs.amazonwebservices.com/amazondynamodb/latest/developerguide/RequestAuthentication.html#WhatIsAuthentication), because integration with the Amazon system is impossible.  The `AWSAccessKeyId` in the `x-amzn-authorization` header is used to uniquely separate multiple tenants. Alternatively, if the header `X-Tenant-Id` is present, the value is used to isolate different users of the system.
+* TerrileDB can not implement support for [AWS Security Token Service Authentication](http://docs.amazonwebservices.com/amazondynamodb/latest/developerguide/RequestAuthentication.html#WhatIsAuthentication), because integration with the Amazon system is impossible for a third party.  The `AWSAccessKeyId` in the `x-amzn-authorization` header is used to uniquely separate multiple tenants. Alternatively, if the header `X-Tenant-Id` is present, the value is used to isolate different users of the system.
 
 # License
 
