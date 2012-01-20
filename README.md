@@ -1,10 +1,13 @@
 # TerribleDB: A data store you should never use in production
 
+# Status: INCOMPLETE DO NOT USE
+
 TerribleDB implements [Amazon's DynamoDB API](http://aws.amazon.com/dynamodb/) API.
 
 It is written in [Node.js](http://nodejs.org), and uses [JSON files](http://www.json.org/) on disk as the primary storage backend.
 
 The primary purpose of TerribleDB is to allow offline, development, and testing of the DynamoDB API, without the costs.
+
 
 # Running
 
